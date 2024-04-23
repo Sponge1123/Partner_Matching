@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.buka.partnermatchingbackend.PartnerMatchingBackendApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.506 s <<< FAILURE! - in com.buka.partnermatchingbackend.PartnerMatchingBackendApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalArgumentException: Unable to instantiate factory class [com.github.xiaoymin.knife4j.spring.common.bean.SpringFoxEnvironmentPostProcessor] for factory type [org.springframework.boot.env.EnvironmentPostProcessor]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/DefaultPropertiesPropertySource
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.DefaultPropertiesPropertySource
+

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.buka.partnermatchingbackend.config.RedissonConfig",
+      "sourceType": "com.buka.partnermatchingbackend.config.RedissonConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.buka.partnermatchingbackend.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.String",
+      "sourceType": "com.buka.partnermatchingbackend.config.RedissonConfig"
+    }
+  ],
+  "hints": []
+}
